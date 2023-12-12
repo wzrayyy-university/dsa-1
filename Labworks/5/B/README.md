@@ -16,15 +16,15 @@ $prev x$ −− вывести максимальный возраст в дре
 ## Выходные данные
 Выведите последовательно результат выполнения всех операций exists, next, prev. Каждый ответ на новой строчке.
 
-|STDIN   |STDOUT|
-|--------|------|
-|insert 2|true  |
-|insert 5|false |
-|insert 3|5     |
-|exists 2|3     |
-|exists 4|none  |
-|next 4  |3     |
-|prev 4  |      |
-|delete 5|      |
-|next 4  |      |
-|prev 4  |      |
+|STDIN|STDOUT|
+|---|---|
+|insert 2||
+|insert 5||
+|insert 3||
+|exists 2|true|
+|exists 4|false|
+|next 4|5|
+|prev 4|3|
+|delete 5||
+|next 4|none|
+|prev 4|3|
